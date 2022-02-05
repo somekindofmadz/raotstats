@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>RaotStats</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="//db.onlinewebfonts.com/c/0ae0d95e14bb73c91644301240b5da10?family=GoudyTitling-Bold" rel="stylesheet" type="text/css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Gentium+Book+Basic&display=swap" rel="stylesheet">
+    </head>
+    <body style="background-image: url('img/city.png'); background-size: cover; font-family: 'GoudyTitling-Bold', serif;">
+        <div id="about">
+            <button id="abtn" class="btn">About</button>
+            <button id="jbtn" class="btn">Join RaotSummit</button>
+        </div>
+        <img class="logo" src="img/raotstats.png">
+        <div id="list">
+            <input type="text" id="filter">
+            <table id="stats">
+            </table>
+        </div>
+        <div id="buttons">
+            <button id="pbtn" class="btn" title="Previous page"></button>
+            <div id="page">1</div>
+            <button id="nbtn" class="btn" title="Next page"></button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</html>

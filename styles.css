@@ -1,0 +1,201 @@
+
+#list {
+    text-align: center;
+}
+
+#filter {
+    margin-bottom: 5px;
+    width: 25%;
+    background-color: #3E3A3A;
+    border: #322D2C solid 1px;
+    border-radius: 5px;
+    color: rgb(226, 226, 226);
+    padding-left: 10px;
+    font-family: 'Gentium Book Basic', serif;
+}
+
+#filter:focus{
+    outline: none;
+}
+
+#buttons {
+    margin: auto;
+    text-align: center;
+    margin-top: 5px;
+    width: 200px;
+}
+
+#pbtn {
+    display: inline-block;
+    text-align: left;
+    margin-left: 1px;
+    
+}
+
+.btn {
+    font-family: 'GoudyTitling-Bold', serif;
+    text-align: center;
+    color:rgb(226, 226, 226);
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:7px;
+    padding-right:7px;
+    background-color: #424242;
+    border: #313231 solid 1px;
+    border-radius: 5px;
+}
+
+body{
+    position: relative;
+    letter-spacing: 1px;
+}
+
+#about {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 1%;
+}
+
+.aboutModal {
+    position: absolute;
+    margin-left: 1%;
+    margin-top: 15%;
+    background-color: #303030;
+    margin: auto;
+    border: 3px groove #A8A8A8;
+    border-radius: 2%;
+    width: 250px;
+    min-height: 100px;
+}
+
+.aboutModal div {
+    border: 0;
+    height: 2px;
+    margin:18px 0;
+    position:relative;
+    background: -webkit-linear-gradient(left, rgba(70,70,70,0) 0%,rgba(70,70,70,0) 10%,rgba(70,70,70,0.65) 50%,rgba(70, 70, 70, 0) 90%,rgba(70, 70, 70, 0) 100%);
+}
+
+.title {
+    text-align: left;
+    font-family: 'GoudyTitling-Bold', serif;
+    font-size: 19px;
+    color: rgb(226, 226, 226);
+    padding-left: 10px;
+}
+
+.aboutModal p {
+    color: rgb(201, 201, 201);
+    text-align: center;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 14px;
+    padding-right: 5px;
+    padding-left: 5px; 
+}
+
+.aboutModal span {
+    color: rgb(160, 160, 160);
+    text-align: left;
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 8px;
+    font-style: italic;
+    padding-left: 5px;
+    display: block;
+}
+
+#jbtn:hover {
+    background-color: #584fac;
+    border: #544296 solid 1px;
+}
+
+#nbtn {
+    display: inline-block;
+    text-align: right;
+    margin-right: 1px;
+}
+
+.btn:hover {
+    background-color: #22769F;
+    border: #185A7A solid 1px;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#page {
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:7px;
+    padding-right:7px;
+    display: inline-block;
+    background-color: #3E3A3A;
+    border: #322D2C solid 1px;
+    border-radius: 5px;
+    color: rgb(226, 226, 226);
+    font-family: 'Gentium Book Basic', serif;
+}
+
+table {
+    background-color: #303030;
+    margin: auto;
+    color: rgb(226, 226, 226);
+    border: 3px groove #A8A8A8;
+    border-radius: 2%;
+    width: 26%;
+}
+
+th {
+    border-bottom: 1px solid rgb(87, 87, 87);
+}
+
+td {
+    border-bottom: 1px double rgb(87, 87, 87);
+}
+
+tr:last-child .name-td, tr:last-child .deaths-td, tr:last-child .kills-td {
+    border-bottom: none;
+}
+
+.name {
+    padding-left: 20px;
+    text-align: left;
+    width: 15%;
+    color: #0CCCF5;
+}
+
+.name-td {
+    width: 15%;
+    text-align: left;
+    padding-left: 7px;
+    color: #0CCCF5;
+}
+
+
+.name-td .namespan {
+    padding-left: 7px;
+}
+
+.kills {
+    margin-left: 3px;
+    width: 5%;
+    -webkit-font-smoothing: antialiased;
+}
+
+.kills-td {
+    text-align: center;
+    width: 5%;
+}
+
+.deaths {
+    margin-right: 2px;
+    width: 5%;
+}
+
+.deaths-td {
+    text-align: center;
+    width: 5%;
+}
